@@ -17,9 +17,7 @@ main() {
     clone_git_repo
     symlink_puppet_dir
     inject_eyaml_keys
-    fetch_puppet_modules
     set_aws_region
-    run_puppet
     secure_puppet_folder
 }
 
